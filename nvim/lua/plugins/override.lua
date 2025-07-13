@@ -1,6 +1,6 @@
 -- since this is just an example spec, don't actually load anything here and return an empty spec
 -- stylua: ignore
--- if true then return {} end
+if true then return {} end
 
 -- every spec file under the "plugins" directory will be loaded automatically by lazy.nvim
 --
@@ -16,7 +16,7 @@ return {
       opts.keymap.preset = "none"
 
       -- 2. 手动将 <Tab> 键映射为“选择并接受”
-      opts.keymap["<Tab>"] = { "select_and_accept" }      
+      opts.keymap["<Tab>"] = { "select_and_accept" }
       -- 返回修改后的 opts
       return opts
     end,
