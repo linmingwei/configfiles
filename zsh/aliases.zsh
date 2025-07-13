@@ -1,3 +1,14 @@
+# Folders
+alias doc="$HOME/Documents"
+alias dow="$HOME/Downloads"
+# Better ls
+alias ls="eza --all --icons=always"
+
+# Lazygit
+alias lg="lazygit"
+
+
+
 # Git 别名
 alias g='git'
 alias ga='git add'

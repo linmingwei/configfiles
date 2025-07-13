@@ -17,6 +17,7 @@ config = {
 	font_size = 14,
 	font = wezterm.font("JetBrains Mono", { weight = "Bold" }),
 	enable_tab_bar = false,
+	macos_window_background_blur = 20,
 	window_padding = {
 		left = 3,
 		right = 3,
